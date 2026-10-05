@@ -14,7 +14,7 @@ This lab reviews the foundational concepts of algorithms and data structures tha
 
 **Answer**: Yes
 
-**Justification**:
+**Justification**: Because T(n) it strictly will grow at a slower rate
 
 3. True/False/Possibly: $T(n)$ is $\Omega(n \log n)$?
 
