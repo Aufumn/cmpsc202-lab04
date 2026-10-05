@@ -14,25 +14,25 @@ This lab reviews the foundational concepts of algorithms and data structures tha
 
 **Answer**: Yes
 
-**Justification**: Because T(n) it strictly will grow at a slower rate
+**Justification**: $\mathcal{O}(n^2)$ is above our upperbound so it's true.
 
 3. True/False/Possibly: $T(n)$ is $\Omega(n \log n)$?
 
 **Answer**: No
 
-**Justification**:
+**Justification**: Omega means that it is a lowerbound and because T(n) grows slower than $\Omega(n \log n)$ this is not true.
 
 4. For any algorithm, we can give a trivial lower bound. What is that lower bound?
 
 **Answer**: $\Omega(1)$
 
-**Justification**:
+**Justification**: Every algorithim requires at least one action to exist so this is the absolute lowerbound.
 
 5. Is there a corresponding trivial upper bound? Why or why not?
 
 **Answer**: No
 
-**Justification**:
+**Justification**: The upperbound represents the maximum ammount of time an algorithim can take so there is no true upper limit unless you have an algorithim that would loop forever.
 
 
 ## Data Structures
