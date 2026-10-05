@@ -110,6 +110,8 @@ for i = 1 to N do
 
 Write a closed-form expression for the number of times `do_work()` is called in terms of $N$.
 
+The do_work() function is called exactly N(N+1)/2 times. 
+
 2. Analyze the exact number of times the `do_work()` function is called in the following pseudocode, assuming $N \ge 1$.
 
 ```
@@ -124,7 +126,7 @@ If $N=16$, how many times is `do_work()` called?
 
 **Answer**: 31
 
-**Justification**:
+**Justification**: The first time the loop runs it runs 16 times the second time it runs 8 then 4 then 2 then 1 the last time 1/2=0 is not true and that closes the loop as it's no longer true.
 
 ## Greedy Algorithms
 
